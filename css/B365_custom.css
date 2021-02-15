@@ -1,0 +1,417 @@
+.league_img{
+    width: 25px;
+    height: 25px;
+    display: inline;
+}
+.league_tr{
+    background: #303c52;
+    color: white;
+}
+#loadingDiv i{
+    font-size: 45px;
+    color: #340ade;
+}
+#loadingDiv {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 1000;
+}
+.gametable_head{
+    text-align: center;
+    font-weight: bold;
+}
+.gametable_description{
+    font-size: 20px;
+}
+.game_time_teams:hover{
+    cursor: pointer;
+    background: rgb(0, 0, 0, 0.2);
+}
+
+.game_time_teams span{
+    font-size: 14px;
+}
+#totalmathces, #upcoming_events_date{
+  font-size: 16px;
+  font-weight: bold;
+}
+#totalmathces{
+  text-align: left;
+  color: red;
+}
+.row.modal_match_row span {
+    padding: 5px 0px;
+}
+.row.modal_match_row {
+    padding: 5px 0px;
+}
+.modal-title{
+    text-align: center;
+}
+.modal-header{
+    background: #307FBE;
+    color: white;
+    margin-top: 50px;
+}
+.modal-footer{
+    text-align: center !important;
+}
+.modal_bookmaker{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.tip_match_time{
+    padding: 0px;
+}
+.tip_match_time h4 {
+    text-align: right;
+    font-size: 16px;
+}
+.league_img_name h4 {
+  font-size: 16px;
+}
+.tip_match_teams h1 , .tip_score h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 0px 10px;
+}
+.tip_match_teams{
+    padding: 10px 0px;
+}
+.tip_score{
+    text-align: center;
+}
+.tip_tabs>ul.nav-tabs>li {
+    width: 33.3%;
+}
+.tips .tip_tabs li {
+    text-align: center;
+}
+.tip_tabs ul li a{
+    background: #23508c;
+    border-radius: 10px;
+    color: white;
+    font-size: 14px;
+    padding: 5px 15px;
+    margin-right: 10px;
+}
+
+.tips .tip_tabs li.active a {
+    color: black;
+    margin-right: 10px;
+}
+#odds .odds_header{
+    background: #23508c;
+    color: white;
+}
+#odds .odds_row_win, #odds .odds_row_draw,#odds .odds_row_loose{
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+#leaguestanding ul.nav-tabs>li>a{
+    border-radius: 15px;
+}
+.tip_tabs>div.tab-content{
+    padding: 20px;
+}
+.tip_home_img{
+    text-align: right;
+}
+.tip_home_img img{
+    float: right;
+}
+.tip_home_img img, .tip_away_img img{
+    width: 50px;
+}
+#all_tips .modal_bookmaker{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.tip_odds_val {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+}
+.h2h_data>td{
+    padding: 0px;
+}
+#leaguestanding ul>li>a{
+    background: #23508c;
+    padding: 5px 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+#leaguestanding ul>li.active a{
+    background: white;
+}
+.h2h_data>td{
+    padding: 0px;
+}
+table.h2h_table>tbody>tr:first-child{
+    background: #23508c;
+    color: white;
+}
+.home_away_history ul li a {
+    background: #23508c;
+    margin-right: 10px;
+    padding: 5px 10px;
+}
+.h2h_data>td {
+    padding-top: 0px !important;
+}
+.current_team_highlight{
+    background: #A9D0F5;
+}
+.tips .view_status a{
+    background: #2961b8;
+    margin-bottom: 40px;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.tips .view_status a:hover {
+    background: white;
+    color: #004aad;
+    border: 1px solid #004aad;
+}
+
+.tips {
+    padding: 0px;
+    border: 1px solid #f2f5fa;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    background: #F3F5FB;
+}
+.tip_success_message, .tip_fail_message {
+    display: none;
+    width: 15%;
+    margin: auto;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 100;
+}
+#datepicker1 {
+    padding-right: 15px;
+}
+.league_name {
+    display:inline;
+    padding:0px 10px;
+}
+.bet_bookmaker{
+    padding: 10px 0px;
+}
+.tip_team_flags{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home_away_history ul, #leaguestanding ul{
+    padding: 10px 0px;
+}
+.h2h_data>td{
+    border: 0;
+    padding: 0px !important;
+}
+#h2h>div:nth-child(2){
+    padding: 0px 10px;
+}
+.home_away_history>div:first-child{
+    padding-left: 0px !important;
+    padding-right: 10px;
+}
+.home_away_history>div:nth-child(2){
+    padding-left: 10px ;
+    padding-right: 0px !important;
+}
+#league_standing_overall_tab>h4, #league_standing_home_tab>h4, #league_standing_away_tab>h4{
+  font-size: 20px;
+background: #23508c;
+color: white;
+padding: 10px;
+}
+.game_teams{
+    font-size: 14px;
+    white-space: break-spaces;
+    color: #0173a9;
+}
+.game_time_teams div.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.field_score, .field_odds{
+    max-width: 70px;
+}
+.field_outcome, .bookmaker{
+    max-width: 100px !important;
+}
+#odds{
+    padding: 0px 10px;
+}
+.tip_tabs>ul{
+    padding-right: 25px;
+    padding-left: 35px;
+    margin-top: 20px;
+}
+.league_img_name{
+    padding-left: 30px;
+}
+.league_time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.league_img_name{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.alltips>ul>li>a {
+    background: #2961b8;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    padding: 5px 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.league_time{
+    padding: 0px 5px;
+    background: #e9edf7;
+}
+
+#datepicker1 input{
+    font-size: 14px;
+}
+#leaguestanding table thead>tr{
+    border-top: 1px solid;
+}
+.container.tips , .alltips{
+    max-width: 100%;
+}
+#h2h .tab-content>div tr.h2h_data tbody>tr td:nth-child(2) {
+    max-width: 200px;
+}
+.tipwidget {
+    width: 24%;
+    float: right;
+}
+.showmore_button{
+    width: 100%;
+    border-radius: 10px;
+    background: #23508C;
+    color: white;
+}
+tr.default_hidden {
+    display: none;
+}
+.team_name_flag h4{
+    display: inline;
+    padding: 0px;
+    color: white;
+    font-size: 15px;
+}
+.team_name_flag img{
+    display: inline;
+    width: 30px;
+    padding: 5px 5px;
+}
+.team_name_flag{
+    background: #23508c;
+    padding: 5px;
+}
+.tips .row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.modal-backdrop {
+   position: unset !important;
+}
+
+.favorite_league{
+    float: right;
+    width: 30px;
+}
+.star_league_tr{
+    background: #610b0b !important;
+}
+
+@media only screen and (max-width: 800px){
+    #content.tipdetail_leftpanel {
+        order: 1;
+    }
+    .tipwidget{
+        order: 2;
+        margin-top: 50px;
+        float: none;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px)
+{
+    .home_away_history>div:first-child{
+        padding-left: 10px !important;
+        padding-right: 10px;
+    }
+    .home_away_history>div:nth-child(2){
+        padding-left: 10px ;
+        padding-right: 10px !important;
+    }
+    #h2h>div{
+        padding: 0px 10px;
+    }
+    #leaguestanding>div{
+        padding: 0px 10px;
+    }
+    .col-sm-12{
+        width: 100% !important;
+        float: left;
+    }
+    .odds_row_img img{
+        width: 80px;
+    }
+    .tip_odds_val img{
+        width: 100px;
+    }
+
+}
+@media only screen and (max-width: 680px){
+    .league_img_name h4, .tip_match_time h4{
+        font-size: 12px;
+        margin-right: 20px;
+    }
+    div#h2h td {
+        font-size: 11px;
+    }
+    div#leaguestanding td {
+        font-size: 11px;
+    }
+    #h2h>div{
+        padding: 0px 0px;
+    }
+    #leaguestanding>div{
+        padding-left: 15px;
+        padding-right: 0px;
+    }
+    .tip_match_teams h1, .tip_score h1{
+        font-size: 16px;
+    }
+    .league_img_name{
+        padding-left: 15px;
+    }
+    #h2h .tab-content>div tr.h2h_data tbody>tr td:nth-child(2) {
+        max-width: 150px;
+    }
+
+}
